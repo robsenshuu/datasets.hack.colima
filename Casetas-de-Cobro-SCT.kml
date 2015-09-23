@@ -1,0 +1,2773 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Casetas de Cobro</name>
+	<Schema name="capacasetas" id="S_capacasetas_ISDDSSSSIS">
+		<SimpleField type="int" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="descripcio"><displayName>&lt;b&gt;descripcio&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="x"><displayName>&lt;b&gt;x&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="double" name="y"><displayName>&lt;b&gt;y&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="estado"><displayName>&lt;b&gt;estado&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="municipio"><displayName>&lt;b&gt;municipio&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="localidad"><displayName>&lt;b&gt;localidad&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="colonia"><displayName>&lt;b&gt;colonia&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="int" name="cp"><displayName>&lt;b&gt;cp&lt;/b&gt;</displayName>
+</SimpleField>
+		<SimpleField type="string" name="calle"><displayName>&lt;b&gt;calle&lt;/b&gt;</displayName>
+</SimpleField>
+	</Schema>
+	<StyleMap id="pointStyleMap">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#normPointStyle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#hlightPointStyle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="normPointStyle">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>id</b></td><td>$[capacasetas/id_2]</td></tr>
+  <tr><td><b>descripcio</b></td><td>$[capacasetas/descripcio]</td></tr>
+  <tr><td><b>x</b></td><td>$[capacasetas/x]</td></tr>
+  <tr><td><b>y</b></td><td>$[capacasetas/y]</td></tr>
+  <tr><td><b>estado</b></td><td>$[capacasetas/estado]</td></tr>
+  <tr><td><b>municipio</b></td><td>$[capacasetas/municipio]</td></tr>
+  <tr><td><b>localidad</b></td><td>$[capacasetas/localidad]</td></tr>
+  <tr><td><b>colonia</b></td><td>$[capacasetas/colonia]</td></tr>
+  <tr><td><b>cp</b></td><td>$[capacasetas/cp]</td></tr>
+  <tr><td><b>calle</b></td><td>$[capacasetas/calle]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="hlightPointStyle">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<table border="0">
+  <tr><td><b>id</b></td><td>$[capacasetas/id_2]</td></tr>
+  <tr><td><b>descripcio</b></td><td>$[capacasetas/descripcio]</td></tr>
+  <tr><td><b>x</b></td><td>$[capacasetas/x]</td></tr>
+  <tr><td><b>y</b></td><td>$[capacasetas/y]</td></tr>
+  <tr><td><b>estado</b></td><td>$[capacasetas/estado]</td></tr>
+  <tr><td><b>municipio</b></td><td>$[capacasetas/municipio]</td></tr>
+  <tr><td><b>localidad</b></td><td>$[capacasetas/localidad]</td></tr>
+  <tr><td><b>colonia</b></td><td>$[capacasetas/colonia]</td></tr>
+  <tr><td><b>cp</b></td><td>$[capacasetas/cp]</td></tr>
+  <tr><td><b>calle</b></td><td>$[capacasetas/calle]</td></tr>
+</table>
+]]></text>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Folder id="layer 0">
+		<name>capacasetas</name>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">1</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 1 Tlalpan</SimpleData>
+					<SimpleData name="x">-99.1483</SimpleData>
+					<SimpleData name="y">19.2419</SimpleData>
+					<SimpleData name="estado">Distrito Federal</SimpleData>
+					<SimpleData name="municipio">Tlalpan</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 23+350 de la autopista México - Cuernavaca</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.14833299999999,19.241944,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">2</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 1b Tres Marías</SimpleData>
+					<SimpleData name="x">-99.2411</SimpleData>
+					<SimpleData name="y">19.0561</SimpleData>
+					<SimpleData name="estado">Morelos</SimpleData>
+					<SimpleData name="municipio">Huitzilac</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 53+800 de la autopista México - Cuernavaca</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.241111,19.05611099999997,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">3</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 3 Iguala</SimpleData>
+					<SimpleData name="x">-99.5083</SimpleData>
+					<SimpleData name="y">18.3361</SimpleData>
+					<SimpleData name="estado">Guerrero</SimpleData>
+					<SimpleData name="municipio">Iguala de la Independencia</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 62+000 de la autopista Puente de Ixtla - Iguala</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.50833299999999,18.33611099999997,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">4</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 4 Tepotzotlán</SimpleData>
+					<SimpleData name="x">-99.2078</SimpleData>
+					<SimpleData name="y">19.7153</SimpleData>
+					<SimpleData name="estado">Estado de México</SimpleData>
+					<SimpleData name="municipio">Tepotzotlán</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 43+000 de la autopista México - Querétaro</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.20777800000001,19.715278,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">5</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 5 Palmillas</SimpleData>
+					<SimpleData name="x">-99.9289</SimpleData>
+					<SimpleData name="y">20.2961</SimpleData>
+					<SimpleData name="estado">Querétaro</SimpleData>
+					<SimpleData name="municipio">San Juan Del Río</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 148+000 de la autopista México - Querétaro</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.92888899999998,20.29611099999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">6</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 6 Querétaro</SimpleData>
+					<SimpleData name="x">-100.473</SimpleData>
+					<SimpleData name="y">20.5722</SimpleData>
+					<SimpleData name="estado">Querétaro</SimpleData>
+					<SimpleData name="municipio">Querétaro</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 7+100 de la autopista Querétaro - Irapuato</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-100.473056,20.57222200000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">7</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 7 San Marcos</SimpleData>
+					<SimpleData name="x">-98.8708</SimpleData>
+					<SimpleData name="y">19.2964</SimpleData>
+					<SimpleData name="estado">Estado de México</SimpleData>
+					<SimpleData name="municipio">Chalco</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 33+300 de la autopista México - Puebla</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-98.87083300000002,19.29638900000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">8</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 8 San Martín</SimpleData>
+					<SimpleData name="x">-98.3856</SimpleData>
+					<SimpleData name="y">19.2411</SimpleData>
+					<SimpleData name="estado">Puebla</SimpleData>
+					<SimpleData name="municipio">San Martín Texmelucan</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 96+600 de la autopista México - Puebla</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-98.38555599999999,19.24111099999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">9</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 10 Pte. Culiacán</SimpleData>
+					<SimpleData name="x">-107.546</SimpleData>
+					<SimpleData name="y">24.9489</SimpleData>
+					<SimpleData name="estado">Sinaloa</SimpleData>
+					<SimpleData name="municipio">Culiacán</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 22+000 de la autopista Culiacán - Los Mochis</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-107.545833,24.94888900000003,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">10</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 11 Pte. Sinaloa</SimpleData>
+					<SimpleData name="x">-108.348</SimpleData>
+					<SimpleData name="y">25.5131</SimpleData>
+					<SimpleData name="estado">Sinaloa</SimpleData>
+					<SimpleData name="municipio">Guasave</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 15+300 de la autopista Culiacán - Los Mochis</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-108.347778,25.51305599999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">11</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 13 Pte. Nacional Tuxpan</SimpleData>
+					<SimpleData name="x">-97.4158</SimpleData>
+					<SimpleData name="y">20.9189</SimpleData>
+					<SimpleData name="estado">Veracruz</SimpleData>
+					<SimpleData name="municipio">Tuxpan</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 261+730 de la autopista Poza Rica - Tuxpan</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-97.41583299999999,20.918889,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">12</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 14 Pte. Panuco</SimpleData>
+					<SimpleData name="x">-97.9375</SimpleData>
+					<SimpleData name="y">22.2033</SimpleData>
+					<SimpleData name="estado">Veracruz</SimpleData>
+					<SimpleData name="municipio">Panuco</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 172+100 de la autopista Tempoal - Canoas</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-97.9375,22.20333299999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">13</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 17 Acatlán</SimpleData>
+					<SimpleData name="x">-103.557</SimpleData>
+					<SimpleData name="y">20.4158</SimpleData>
+					<SimpleData name="estado">Jalisco</SimpleData>
+					<SimpleData name="municipio">Acatlán de Juárez</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 0+600 de la autopista Guadalajara - Colima</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-103.557222,20.41583299999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">14</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 20 Pte. Matamoros</SimpleData>
+					<SimpleData name="x">-97.4981</SimpleData>
+					<SimpleData name="y">25.8969</SimpleData>
+					<SimpleData name="estado">Tamaulipas</SimpleData>
+					<SimpleData name="municipio">Matamoros</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-97.49805599999999,25.89694399999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">15</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 21 Ojo de Agua</SimpleData>
+					<SimpleData name="x">-99.03</SimpleData>
+					<SimpleData name="y">19.6181</SimpleData>
+					<SimpleData name="estado">Estado de México</SimpleData>
+					<SimpleData name="municipio">Ecatepec de Morelos</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 24+700 de la autopista México - Tizayuca</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.03,19.61805599999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">16</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 22 Pte. Alvarado</SimpleData>
+					<SimpleData name="x">-95.7444</SimpleData>
+					<SimpleData name="y">18.77</SimpleData>
+					<SimpleData name="estado">Veracruz</SimpleData>
+					<SimpleData name="municipio">Alvarado</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 50+930 de la autopista Paso del Toro - Los Tuxtlas</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-95.744444,18.77000000000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">17</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 23 San Cristóbal</SimpleData>
+					<SimpleData name="x">-99.0422</SimpleData>
+					<SimpleData name="y">19.5878</SimpleData>
+					<SimpleData name="estado">Estado de México</SimpleData>
+					<SimpleData name="municipio">Ecatepec de Morelos</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 21+000 de la autopista México - Tizayuca</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.04222199999998,19.587778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">18</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 24 Tepoztlán</SimpleData>
+					<SimpleData name="x">-99.1131</SimpleData>
+					<SimpleData name="y">18.9867</SimpleData>
+					<SimpleData name="estado">Morelos</SimpleData>
+					<SimpleData name="municipio">Tepoztlán</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 7+950 de la autopista La Pera - Cuautla</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.11305599999999,18.98666699999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">19</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 25 Oacalco</SimpleData>
+					<SimpleData name="x">-99.0256</SimpleData>
+					<SimpleData name="y">18.9311</SimpleData>
+					<SimpleData name="estado">Morelos</SimpleData>
+					<SimpleData name="municipio">Oacalco</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 21+200 de la autopista La Pera - Cuautla</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.025556,18.93111099999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">20</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 26 Amozoc</SimpleData>
+					<SimpleData name="x">-98.0322</SimpleData>
+					<SimpleData name="y">19.05</SimpleData>
+					<SimpleData name="estado">Puebla</SimpleData>
+					<SimpleData name="municipio">Amozoc de Mota</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 141+613 de la autopista Puebla - Amozoc</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-98.032222,19.05000000000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">21</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 27 Esperanza</SimpleData>
+					<SimpleData name="x">-97.3858</SimpleData>
+					<SimpleData name="y">18.8708</SimpleData>
+					<SimpleData name="estado">Puebla</SimpleData>
+					<SimpleData name="municipio">Esperanza</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 217+500 de la autopista Puebla - Orizaba</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-97.38583299999999,18.87083300000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">22</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 28 Pte. Papaloapan</SimpleData>
+					<SimpleData name="x">-96.0964</SimpleData>
+					<SimpleData name="y">18.1592</SimpleData>
+					<SimpleData name="estado">Oaxaca</SimpleData>
+					<SimpleData name="municipio">Tuxtepec</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 3+500 de la autopista Cd. Alemán - Sayula</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-96.096389,18.15916700000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">23</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 29 Pte. Caracol</SimpleData>
+					<SimpleData name="x">-96.1367</SimpleData>
+					<SimpleData name="y">18.1331</SimpleData>
+					<SimpleData name="estado">Oaxaca</SimpleData>
+					<SimpleData name="municipio">Tuxtepec</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 113 + 200 de la autopista Cd. Alemán - Tuxtepec</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-96.136667,18.133056,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">24</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 30 Pte. Camargo</SimpleData>
+					<SimpleData name="x">-98.8064</SimpleData>
+					<SimpleData name="y">26.3625</SimpleData>
+					<SimpleData name="estado">Tamaulipas</SimpleData>
+					<SimpleData name="municipio">Camargo</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-98.80638899999998,26.3625,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">25</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 31 Pte. Miguel Alemán</SimpleData>
+					<SimpleData name="x">-99.0206</SimpleData>
+					<SimpleData name="y">26.4028</SimpleData>
+					<SimpleData name="estado">Tamaulipas</SimpleData>
+					<SimpleData name="municipio">Ciudad Miguel Alemán</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.020556,26.40277800000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">26</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 33 Pte. Nautla</SimpleData>
+					<SimpleData name="x">-96.7786</SimpleData>
+					<SimpleData name="y">20.21</SimpleData>
+					<SimpleData name="estado">Veracruz</SimpleData>
+					<SimpleData name="municipio">Nautla</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 95+950 de la autopista Nautla - Tecolutla</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-96.778611,20.21000000000003,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">27</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 34 Playas de Tijuana</SimpleData>
+					<SimpleData name="x">-117.109</SimpleData>
+					<SimpleData name="y">32.5139</SimpleData>
+					<SimpleData name="estado">Baja California</SimpleData>
+					<SimpleData name="municipio">Tijuana</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 11+000 de la autopista Tijuana-Ensenada</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-117.109444,32.51388900000003,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">28</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 35 Rosarito</SimpleData>
+					<SimpleData name="x">-117.044</SimpleData>
+					<SimpleData name="y">32.3111</SimpleData>
+					<SimpleData name="estado">Baja California</SimpleData>
+					<SimpleData name="municipio">Playas de Rosarito</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 36+640 de la autopista Tijuana-Ensenada</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-117.044167,32.311111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">29</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 36 Ensenada</SimpleData>
+					<SimpleData name="x">-116.733</SimpleData>
+					<SimpleData name="y">31.9031</SimpleData>
+					<SimpleData name="estado">Baja California</SimpleData>
+					<SimpleData name="municipio">Ensenada</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 98+600 de la autopista Tijuana-Ensenada</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-116.732778,31.90305600000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">30</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 37 Reynosa</SimpleData>
+					<SimpleData name="x">-98.2711</SimpleData>
+					<SimpleData name="y">26.0931</SimpleData>
+					<SimpleData name="estado">Tamaulipas</SimpleData>
+					<SimpleData name="municipio">Reynosa</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-98.27111100000001,26.09305599999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">31</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 38 Pte. Grijalva</SimpleData>
+					<SimpleData name="x">-92.7853</SimpleData>
+					<SimpleData name="y">17.9475</SimpleData>
+					<SimpleData name="estado">Tabasco</SimpleData>
+					<SimpleData name="municipio">Villahermosa</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 17+500 de la autopista Villa Hermosa - Escárcega</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-92.78527800000001,17.94749999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">32</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 39 Pte. Usumacinta</SimpleData>
+					<SimpleData name="x">-91.7836</SimpleData>
+					<SimpleData name="y">17.8597</SimpleData>
+					<SimpleData name="estado">Tabasco</SimpleData>
+					<SimpleData name="municipio">Emiliano Zapata</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 145+200 de la autopista Villa Hermosa - Escárcega</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-91.78361100000001,17.859722,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">33</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 40 Cadereyta</SimpleData>
+					<SimpleData name="x">-100.001</SimpleData>
+					<SimpleData name="y">25.6075</SimpleData>
+					<SimpleData name="estado">Nuevo León</SimpleData>
+					<SimpleData name="municipio">Cadereyta Jiménez</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 30+500 de la autopista Monterrey - Cadereyta</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-100.001111,25.60750000000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">34</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 41 Salamanca</SimpleData>
+					<SimpleData name="x">-101.181</SimpleData>
+					<SimpleData name="y">20.5983</SimpleData>
+					<SimpleData name="estado">Guanajuato</SimpleData>
+					<SimpleData name="municipio">Salamanca</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 83+000 de la autopista Querétaro - Irapuato</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-101.180833,20.59833299999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">35</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 42 Pte. La Piedad</SimpleData>
+					<SimpleData name="x">-102.025</SimpleData>
+					<SimpleData name="y">20.3528</SimpleData>
+					<SimpleData name="estado">Michoacán</SimpleData>
+					<SimpleData name="municipio">La Piedad</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 89+100 de la autopista Irapuato - Guadalajara</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-102.025278,20.35277800000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">36</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 43 Pte. Tecolutla</SimpleData>
+					<SimpleData name="x">-97.0864</SimpleData>
+					<SimpleData name="y">20.4378</SimpleData>
+					<SimpleData name="estado">Veracruz</SimpleData>
+					<SimpleData name="municipio">Tecolutla</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 50+800 de la autopista Poza Rica - Nautla</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-97.086389,20.43777800000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">37</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 45 Fortín</SimpleData>
+					<SimpleData name="x">-96.9994</SimpleData>
+					<SimpleData name="y">18.9072</SimpleData>
+					<SimpleData name="estado">Veracruz</SimpleData>
+					<SimpleData name="municipio">Fortín de Las Flores</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 286+150 de la autopista Cd. Mendoza - Córdoba</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-96.999444,18.90722199999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">38</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 47 Pte. Las Flores</SimpleData>
+					<SimpleData name="x">-97.9503</SimpleData>
+					<SimpleData name="y">26.0606</SimpleData>
+					<SimpleData name="estado">Tamaulipas</SimpleData>
+					<SimpleData name="municipio">Rio Bravo</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-97.95027799999998,26.06055599999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">39</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 48 Pte. San Juan</SimpleData>
+					<SimpleData name="x">-98.8419</SimpleData>
+					<SimpleData name="y">26.3119</SimpleData>
+					<SimpleData name="estado">Tamaulipas</SimpleData>
+					<SimpleData name="municipio">Camargo</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km km 64 de la autopista Reynosa- Nuevo Laredo</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-98.841944,26.311944,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">40</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 49 Pte. Tampico</SimpleData>
+					<SimpleData name="x">-97.8247</SimpleData>
+					<SimpleData name="y">22.2183</SimpleData>
+					<SimpleData name="estado">Veracruz</SimpleData>
+					<SimpleData name="municipio">Tampico</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 191+800 de la autopista Tuxpan - Tampico</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-97.82472200000001,22.21833300000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">41</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 50 Pte. Ojinaga</SimpleData>
+					<SimpleData name="x">-104.397</SimpleData>
+					<SimpleData name="y">29.5608</SimpleData>
+					<SimpleData name="estado">Chihuahua</SimpleData>
+					<SimpleData name="municipio">Ojinaga</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-104.396944,29.56083299999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">42</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 51 Pte. Paso Del Norte</SimpleData>
+					<SimpleData name="x">-106.486</SimpleData>
+					<SimpleData name="y">31.7458</SimpleData>
+					<SimpleData name="estado">Chihuahua</SimpleData>
+					<SimpleData name="municipio">Ciudad Juárez</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-106.486389,31.74583299999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">43</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 53 Compostela</SimpleData>
+					<SimpleData name="x">-104.888</SimpleData>
+					<SimpleData name="y">21.2294</SimpleData>
+					<SimpleData name="estado">Nayarit</SimpleData>
+					<SimpleData name="municipio">Compostela</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 31+700 de la autopista Chapalilla - Compostela</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-104.8875,21.22944399999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">44</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 55 San Marcos</SimpleData>
+					<SimpleData name="x">-103.495</SimpleData>
+					<SimpleData name="y">19.4336</SimpleData>
+					<SimpleData name="estado">Jalisco</SimpleData>
+					<SimpleData name="municipio">Tonalá</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 122+500 de la autopista Guadalajara - Colima</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-103.494722,19.43361099999997,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">45</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 56 Zacapalco</SimpleData>
+					<SimpleData name="x">-99.4475</SimpleData>
+					<SimpleData name="y">18.5378</SimpleData>
+					<SimpleData name="estado">Guerrero</SimpleData>
+					<SimpleData name="municipio">Buena Vista de Cuellar</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 0+500 de la autopista Zacapalco - Rancho Viejo</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.44750000000001,18.537778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">46</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 56b Taxco</SimpleData>
+					<SimpleData name="x">-99.56</SimpleData>
+					<SimpleData name="y">18.5886</SimpleData>
+					<SimpleData name="estado">Guerrero</SimpleData>
+					<SimpleData name="municipio">Taxco de Alarcón</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 0+500 de la autopista Rancho Viejo - Taxco</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.56,18.58861100000003,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">47</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 57 Pte. Int. Zaragoza Ysleta</SimpleData>
+					<SimpleData name="x">-106.341</SimpleData>
+					<SimpleData name="y">31.6708</SimpleData>
+					<SimpleData name="estado">Chihuahua</SimpleData>
+					<SimpleData name="municipio">Ciudad Juárez</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-106.340556,31.67083299999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">48</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 60 Pte. Int. Rodolfo Robles</SimpleData>
+					<SimpleData name="x">-92.1497</SimpleData>
+					<SimpleData name="y">14.6769</SimpleData>
+					<SimpleData name="estado">Chiapas</SimpleData>
+					<SimpleData name="municipio">Ciudad Hidalgo</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 27+500 de la autopista Cd. Hidalgo – Tecún Umán Guatemala</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-92.149722,14.67694399999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">49</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 61 Libramiento Sur-poniente</SimpleData>
+					<SimpleData name="x">-100.482</SimpleData>
+					<SimpleData name="y">20.57</SimpleData>
+					<SimpleData name="estado">Querétaro</SimpleData>
+					<SimpleData name="municipio">Corregidora</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 8+000 de la autopista Querétaro - Irapuato</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-100.481667,20.56999999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">50</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 62 Pte. Piedras Negras</SimpleData>
+					<SimpleData name="x">-100.513</SimpleData>
+					<SimpleData name="y">28.7056</SimpleData>
+					<SimpleData name="estado">Coahuila</SimpleData>
+					<SimpleData name="municipio">Piedras Negras</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-100.513056,28.705556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">51</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 63 Pte. Tlacotalpan</SimpleData>
+					<SimpleData name="x">-95.6414</SimpleData>
+					<SimpleData name="y">18.7047</SimpleData>
+					<SimpleData name="estado">Veracruz</SimpleData>
+					<SimpleData name="municipio">Tlacotalpan</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 1+550 de la autopista Alvarado - Tlacotalpan</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-95.641389,18.70472200000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">52</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 65 Pte. Acuña</SimpleData>
+					<SimpleData name="x">-100.929</SimpleData>
+					<SimpleData name="y">29.3256</SimpleData>
+					<SimpleData name="estado">Coahuila</SimpleData>
+					<SimpleData name="municipio">Ciudad Acuña</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-100.929167,29.32555599999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">53</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 66 Pte. Laredo</SimpleData>
+					<SimpleData name="x">-99.5072</SimpleData>
+					<SimpleData name="y">27.4986</SimpleData>
+					<SimpleData name="estado">Tamaulipas</SimpleData>
+					<SimpleData name="municipio">Nuevo Laredo</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.507222,27.498611,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">54</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 67 Pte. Dovalí Jaime</SimpleData>
+					<SimpleData name="x">-94.3967</SimpleData>
+					<SimpleData name="y">18.0133</SimpleData>
+					<SimpleData name="estado">Veracruz</SimpleData>
+					<SimpleData name="municipio">Ixhuatlán Del Sureste</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 11+200 de la autopista Nuevo Teapa - Cosoleacaque</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-94.39666699999999,18.013333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">55</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 67b Pte. Dovalí Jaime</SimpleData>
+					<SimpleData name="x">-94.4433</SimpleData>
+					<SimpleData name="y">18.0142</SimpleData>
+					<SimpleData name="estado">Veracruz</SimpleData>
+					<SimpleData name="municipio">Ixhuatlán Del Sureste</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 16+400 de la autopista Nuevo Teapa - Cosoleacaque</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-94.44333299999998,18.01416699999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">56</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 69 Jorobas</SimpleData>
+					<SimpleData name="x">-99.2497</SimpleData>
+					<SimpleData name="y">19.8256</SimpleData>
+					<SimpleData name="estado">Estado de México</SimpleData>
+					<SimpleData name="municipio">Huehuetoca</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 56+000 de la autopista México - Querétaro</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.24972200000001,19.82555600000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">57</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 70 Polotitlán</SimpleData>
+					<SimpleData name="x">-99.8106</SimpleData>
+					<SimpleData name="y">20.2261</SimpleData>
+					<SimpleData name="estado">Estado de México</SimpleData>
+					<SimpleData name="municipio">Polotitlán</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 132+000 de la autopista México - Querétaro</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.81055600000001,20.226111,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">58</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 71 Chalco</SimpleData>
+					<SimpleData name="x">-98.8819</SimpleData>
+					<SimpleData name="y">19.2919</SimpleData>
+					<SimpleData name="estado">Estado de México</SimpleData>
+					<SimpleData name="municipio">Chalco</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 32+000 de la autopista México - Puebla</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-98.881944,19.29194400000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">59</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 74 Pte. Juárez Lincoln</SimpleData>
+					<SimpleData name="x">-99.5017</SimpleData>
+					<SimpleData name="y">27.4981</SimpleData>
+					<SimpleData name="estado">Tamaulipas</SimpleData>
+					<SimpleData name="municipio">Nuevo Laredo</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.501667,27.49805600000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">60</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 75 Pte. Reynosa Pharr</SimpleData>
+					<SimpleData name="x">-98.2092</SimpleData>
+					<SimpleData name="y">26.0397</SimpleData>
+					<SimpleData name="estado">Tamaulipas</SimpleData>
+					<SimpleData name="municipio">Reynosa</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-98.20916699999999,26.03972200000003,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">61</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 76 Tehuacán</SimpleData>
+					<SimpleData name="x">-97.4561</SimpleData>
+					<SimpleData name="y">18.4872</SimpleData>
+					<SimpleData name="estado">Puebla</SimpleData>
+					<SimpleData name="municipio">San Lorenzo Teotipilco</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 41+050 de la autopista Cuacnopalan - Oaxaca</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-97.45611099999999,18.48722199999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">62</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 77 Miahuatlán</SimpleData>
+					<SimpleData name="x">-97.3156</SimpleData>
+					<SimpleData name="y">18.2647</SimpleData>
+					<SimpleData name="estado">Puebla</SimpleData>
+					<SimpleData name="municipio">San José Miahuatlán</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 71+415 de la autopista Cuacnopalan - Oaxaca</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-97.315556,18.26472200000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">63</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 78 Suchixtlahuaca</SimpleData>
+					<SimpleData name="x">-97.3528</SimpleData>
+					<SimpleData name="y">17.7258</SimpleData>
+					<SimpleData name="estado">Oaxaca</SimpleData>
+					<SimpleData name="municipio">San Cristóbal Suchixtlahuaca</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 141+223 de la autopista Cuacnopalan - Oaxaca</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-97.35277799999999,17.72583299999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">64</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 79 Huitzo</SimpleData>
+					<SimpleData name="x">-96.9153</SimpleData>
+					<SimpleData name="y">17.275</SimpleData>
+					<SimpleData name="estado">Oaxaca</SimpleData>
+					<SimpleData name="municipio">San Pablo Huitzo</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 217+017 de la autopista Cuacnopalan - Oaxaca</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-96.915278,17.27500000000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">65</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 83 El Hongo</SimpleData>
+					<SimpleData name="x">-116.32</SimpleData>
+					<SimpleData name="y">32.5219</SimpleData>
+					<SimpleData name="estado">Baja California</SimpleData>
+					<SimpleData name="municipio">Tecate</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 92+360 de la autopista Rumorosa - Tecate</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-116.319722,32.52194399999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">66</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 84 Tejocotal</SimpleData>
+					<SimpleData name="x">-98.2858</SimpleData>
+					<SimpleData name="y">20.1475</SimpleData>
+					<SimpleData name="estado">Hidalgo</SimpleData>
+					<SimpleData name="municipio">Tulancingo</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 105+000 de la autopista Asunción - Tejocotal</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-98.285833,20.14750000000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">67</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 85 Pte. Int. Luis Cabrera</SimpleData>
+					<SimpleData name="x">-92.1514</SimpleData>
+					<SimpleData name="y">14.7022</SimpleData>
+					<SimpleData name="estado">Chiapas</SimpleData>
+					<SimpleData name="municipio">Suchiate</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 24+400 de la autopista Cd Hidalgo – Tecún Umán Guatemala</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-92.151389,14.70222200000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">68</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 86 San José del Cabo</SimpleData>
+					<SimpleData name="x">-109.719</SimpleData>
+					<SimpleData name="y">23.05</SimpleData>
+					<SimpleData name="estado">Baja California</SimpleData>
+					<SimpleData name="municipio">Los Cabos</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 118+000 de la autopista Aeropuerto-San José del Cabo</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-109.719444,23.05,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">69</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 87 Zacatecas</SimpleData>
+					<SimpleData name="x">-102.449</SimpleData>
+					<SimpleData name="y">22.7036</SimpleData>
+					<SimpleData name="estado">Zacatecas</SimpleData>
+					<SimpleData name="municipio">Guadalup0e</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 97+700 de la autopista Zacatecas - Aguascalientes</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-102.449167,22.70361100000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">70</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 89 Tehuantepec</SimpleData>
+					<SimpleData name="x">-95.2892</SimpleData>
+					<SimpleData name="y">16.1622</SimpleData>
+					<SimpleData name="estado">Oaxaca</SimpleData>
+					<SimpleData name="municipio">Tehuantepec</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 01+890 de la autopista Salina Cruz - Tehuantepec</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-95.28916700000001,16.16222199999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">71</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 90 Ixtepec</SimpleData>
+					<SimpleData name="x">-95.1356</SimpleData>
+					<SimpleData name="y">16.5611</SimpleData>
+					<SimpleData name="estado">Oaxaca</SimpleData>
+					<SimpleData name="municipio">Ixtepec</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 53+500 de la autopista Tehuantepec - La Ventosa</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-95.13555599999999,16.56111100000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">72</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 91 Revolución</SimpleData>
+					<SimpleData name="x">-99.0381</SimpleData>
+					<SimpleData name="y">19.6028</SimpleData>
+					<SimpleData name="estado">Estado de México</SimpleData>
+					<SimpleData name="municipio">Ecatepec de Morelos</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 22+800 de la autopista México - Tizayuca</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.038056,19.60277799999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">73</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 92 Nuevo Necaxa</SimpleData>
+					<SimpleData name="x">-98.0297</SimpleData>
+					<SimpleData name="y">20.1867</SimpleData>
+					<SimpleData name="estado">Puebla</SimpleData>
+					<SimpleData name="municipio">Huauchinango</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 140+010 de la autopista Tejocotal - Nuevo Necaxa</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-98.02972200000001,20.18666699999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">74</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 94 Pte. Int. Lerdo Stanton</SimpleData>
+					<SimpleData name="x">-106.483</SimpleData>
+					<SimpleData name="y">31.7467</SimpleData>
+					<SimpleData name="estado">Chihuahua</SimpleData>
+					<SimpleData name="municipio">Ciudad Juárez</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-106.4825,31.74666700000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">75</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 95 Durango</SimpleData>
+					<SimpleData name="x">-104.736</SimpleData>
+					<SimpleData name="y">24.0044</SimpleData>
+					<SimpleData name="estado">Durango</SimpleData>
+					<SimpleData name="municipio">Durango</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 22+306 de la autopista Durango - Mazatlán</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-104.736389,24.00444399999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">76</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 96 Llano Grande</SimpleData>
+					<SimpleData name="x">-105.231</SimpleData>
+					<SimpleData name="y">23.8655</SimpleData>
+					<SimpleData name="estado">Durango</SimpleData>
+					<SimpleData name="municipio">Durango</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 78+000 de la autopista Durango - Mazatlán</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-105.230994,23.86545599999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">77</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 99 Refinería Lázaro Cárdenas</SimpleData>
+					<SimpleData name="x">-94.4536</SimpleData>
+					<SimpleData name="y">18.0153</SimpleData>
+					<SimpleData name="estado">Veracruz</SimpleData>
+					<SimpleData name="municipio">Ixhuatlán Del Sureste</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 17+500 de la autopista Nuevo Teapa - Cosoleacaque</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-94.453611,18.01527800000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">78</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 101 Alpuyeca</SimpleData>
+					<SimpleData name="x">-99.26</SimpleData>
+					<SimpleData name="y">18.7233</SimpleData>
+					<SimpleData name="estado">Morelos</SimpleData>
+					<SimpleData name="municipio">Xochitepec</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 114+000 de la autopista México - Acapulco</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.25999999999999,18.72333300000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">79</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 102 Paso Morelos</SimpleData>
+					<SimpleData name="x">-99.2156</SimpleData>
+					<SimpleData name="y">18.2314</SimpleData>
+					<SimpleData name="estado">Guerrero</SimpleData>
+					<SimpleData name="municipio">Huitzuco de Los Figueroa</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 178+000 de la autopista México - Acapulco</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.21555600000002,18.23138900000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">80</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 103 Palo Blanco</SimpleData>
+					<SimpleData name="x">-99.4669</SimpleData>
+					<SimpleData name="y">17.4239</SimpleData>
+					<SimpleData name="estado">Guerrero</SimpleData>
+					<SimpleData name="municipio">Mazatlán</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 288+900 de la autopista México - Acapulco</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.466944,17.42388900000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">81</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 104 La Venta</SimpleData>
+					<SimpleData name="x">-99.8017</SimpleData>
+					<SimpleData name="y">16.9283</SimpleData>
+					<SimpleData name="estado">Guerrero</SimpleData>
+					<SimpleData name="municipio">Acapulco</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 364+950 de la autopista México - Acapulco</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.801667,16.928333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">82</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 105 Xochitepec</SimpleData>
+					<SimpleData name="x">-99.2253</SimpleData>
+					<SimpleData name="y">18.775</SimpleData>
+					<SimpleData name="estado">Morelos</SimpleData>
+					<SimpleData name="municipio">Xochitepec</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 108+000 de la autopista México - Acapulco</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.225278,18.77500000000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">83</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 106 Aeropuerto</SimpleData>
+					<SimpleData name="x">-99.2214</SimpleData>
+					<SimpleData name="y">18.8022</SimpleData>
+					<SimpleData name="estado">Morelos</SimpleData>
+					<SimpleData name="municipio">Emiliano Zapata</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 104+800 de la autopista Cuernavaca - Acapulco</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.22138899999999,18.80222200000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">84</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 107 Central de Abastos</SimpleData>
+					<SimpleData name="x">-99.2153</SimpleData>
+					<SimpleData name="y">18.8375</SimpleData>
+					<SimpleData name="estado">Morelos</SimpleData>
+					<SimpleData name="municipio">Emiliano Zapata</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 100+800 de la autopista Cuernavaca - Acapulco</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.215278,18.83749999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">85</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 108 Sabinas</SimpleData>
+					<SimpleData name="x">-100.007</SimpleData>
+					<SimpleData name="y">26.5122</SimpleData>
+					<SimpleData name="estado">Nuevo León</SimpleData>
+					<SimpleData name="municipio">Vallecillo</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 100+000 de la autopista Monterrey - Nuevo Laredo</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-100.007222,26.51222200000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">86</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 109 Agualeguas</SimpleData>
+					<SimpleData name="x">-100.071</SimpleData>
+					<SimpleData name="y">26.3403</SimpleData>
+					<SimpleData name="estado">Nuevo León</SimpleData>
+					<SimpleData name="municipio">Sabinas Hidalgo</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 79+600 de la autopista Monterrey - Nuevo Laredo</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-100.070556,26.340278,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">87</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 110 Paras</SimpleData>
+					<SimpleData name="x">-100.008</SimpleData>
+					<SimpleData name="y">26.5083</SimpleData>
+					<SimpleData name="estado">Nuevo León</SimpleData>
+					<SimpleData name="municipio">Vallecillo</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 99+300 de la autopista Monterrey - Nuevo Laredo</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-100.008333,26.50833300000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">88</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 112 Libramiento Tampico</SimpleData>
+					<SimpleData name="x">-97.8933</SimpleData>
+					<SimpleData name="y">22.2753</SimpleData>
+					<SimpleData name="estado">Tamaulipas</SimpleData>
+					<SimpleData name="municipio">Tampico</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 5+970 de la autopista Libramiento Puente Tampico</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-97.893333,22.27527800000003,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">89</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 116 Cuitláhuac</SimpleData>
+					<SimpleData name="x">-96.7469</SimpleData>
+					<SimpleData name="y">18.8394</SimpleData>
+					<SimpleData name="estado">Veracruz</SimpleData>
+					<SimpleData name="municipio">Cuitláhuac</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 14+200 de la autopista Córdoba - Veracruz</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-96.746944,18.839444,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">90</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 117 Paso Del Toro</SimpleData>
+					<SimpleData name="x">-96.1983</SimpleData>
+					<SimpleData name="y">19.0817</SimpleData>
+					<SimpleData name="estado">Veracruz</SimpleData>
+					<SimpleData name="municipio">Veracruz</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 89+900 de la autopista Córdoba - Veracruz</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-96.19833300000001,19.08166700000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">91</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 118 Cosamaloapan</SimpleData>
+					<SimpleData name="x">-95.8222</SimpleData>
+					<SimpleData name="y">18.335</SimpleData>
+					<SimpleData name="estado">Veracruz</SimpleData>
+					<SimpleData name="municipio">Cosamaloapan de Carpio</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 83+360 de la autopista La Tinaja - Isla</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-95.822222,18.33500000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">92</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 119 Acayucan</SimpleData>
+					<SimpleData name="x">-94.9372</SimpleData>
+					<SimpleData name="y">17.91</SimpleData>
+					<SimpleData name="estado">Veracruz</SimpleData>
+					<SimpleData name="municipio">Acayucan</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 188+000 de la autopista Villa Isla - Cosoleacaque</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-94.93722199999999,17.90999999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">93</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 127 Chichimequillas</SimpleData>
+					<SimpleData name="x">-100.344</SimpleData>
+					<SimpleData name="y">20.7058</SimpleData>
+					<SimpleData name="estado">Querétaro</SimpleData>
+					<SimpleData name="municipio">El Marqués</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 20+600 de la autopista Libramiento Noreste de Querétaro</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-100.344444,20.70583299999997,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">94</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 128 Gral. Bravo</SimpleData>
+					<SimpleData name="x">-99.1694</SimpleData>
+					<SimpleData name="y">25.8136</SimpleData>
+					<SimpleData name="estado">Nuevo León</SimpleData>
+					<SimpleData name="municipio">General Bravo</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 120+000 de la autopista Cadereyta - Reynosa</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.169444,25.813611,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">95</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 129 Herreras</SimpleData>
+					<SimpleData name="x">-99.3739</SimpleData>
+					<SimpleData name="y">25.7572</SimpleData>
+					<SimpleData name="estado">Nuevo León</SimpleData>
+					<SimpleData name="municipio">General Bravo</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 98+000 de la autopista Cadereyta - Reynosa</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.37388900000001,25.75722200000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">96</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 130 Ramones</SimpleData>
+					<SimpleData name="x">-99.6325</SimpleData>
+					<SimpleData name="y">25.6567</SimpleData>
+					<SimpleData name="estado">Nuevo León</SimpleData>
+					<SimpleData name="municipio">Los Ramones</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 70+260 de la autopista Cadereyta - Reynosa</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.63249999999999,25.65666700000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">97</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 131 Dr. Coss</SimpleData>
+					<SimpleData name="x">-99.1736</SimpleData>
+					<SimpleData name="y">25.8119</SimpleData>
+					<SimpleData name="estado">Nuevo León</SimpleData>
+					<SimpleData name="municipio">General Bravo</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 119+500 de la autopista Cadereyta - Reynosa</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.17361099999999,25.811944,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">98</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 132 Seyba Playa</SimpleData>
+					<SimpleData name="x">-90.6717</SimpleData>
+					<SimpleData name="y">19.6361</SimpleData>
+					<SimpleData name="estado">Campeche</SimpleData>
+					<SimpleData name="municipio">Seyba Playa</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 175+200 de la autopista Campeche - Champotón</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-90.67166699999999,19.63611100000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">99</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 133 Chamapa</SimpleData>
+					<SimpleData name="x">-99.2967</SimpleData>
+					<SimpleData name="y">19.4392</SimpleData>
+					<SimpleData name="estado">Estado de México</SimpleData>
+					<SimpleData name="municipio">Naucalpan de Juárez</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 27+000 de la autopista Chamapa - Lechería</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.296667,19.439167,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">100</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 134 Cipreses</SimpleData>
+					<SimpleData name="x">-99.3114</SimpleData>
+					<SimpleData name="y">19.4688</SimpleData>
+					<SimpleData name="estado">Estado de México</SimpleData>
+					<SimpleData name="municipio">Naucalpan de Juárez</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 23+613 de la autopista Chamapa - Lechería</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.311359,19.46882800000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">101</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 135 Nopala</SimpleData>
+					<SimpleData name="x">-99.3108</SimpleData>
+					<SimpleData name="y">19.4875</SimpleData>
+					<SimpleData name="estado">Estado de México</SimpleData>
+					<SimpleData name="municipio">Naucalpan de Juárez</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 21+306 de la autopista Chamapa - Lechería</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.310833,19.48750000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">102</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 136 Madín</SimpleData>
+					<SimpleData name="x">-99.2775</SimpleData>
+					<SimpleData name="y">19.5489</SimpleData>
+					<SimpleData name="estado">Estado de México</SimpleData>
+					<SimpleData name="municipio">Atizapán de Zaragoza</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 13+700 de la autopista Chamapa - Lechería</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.2775,19.54888900000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">103</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 137 Atizapán</SimpleData>
+					<SimpleData name="x">-99.2708</SimpleData>
+					<SimpleData name="y">19.5825</SimpleData>
+					<SimpleData name="estado">Estado de México</SimpleData>
+					<SimpleData name="municipio">Atizapán de Zaragoza</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 9+600 de la autopista Chamapa - Lechería</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.270833,19.58249999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">104</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 138 Lago de Guadalupe</SimpleData>
+					<SimpleData name="x">-99.2369</SimpleData>
+					<SimpleData name="y">19.6094</SimpleData>
+					<SimpleData name="estado">Estado de México</SimpleData>
+					<SimpleData name="municipio">Atizapán de Zaragoza</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 5+000 de la autopista Chamapa - Lechería</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.23694400000001,19.60944400000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">105</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 139 Cuautitlán (Lechería)</SimpleData>
+					<SimpleData name="x">-99.2058</SimpleData>
+					<SimpleData name="y">19.605</SimpleData>
+					<SimpleData name="estado">Estado de México</SimpleData>
+					<SimpleData name="municipio">Cuautitlán Izcalli</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 1+300 de la autopista Chamapa - Lechería</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.20583300000001,19.60499999999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">106</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 140 La Carbonera (Ojo Caliente)</SimpleData>
+					<SimpleData name="x">-100.868</SimpleData>
+					<SimpleData name="y">25.511</SimpleData>
+					<SimpleData name="estado">Coahuila de Zaragoza</SimpleData>
+					<SimpleData name="municipio">Ramos Arizpe</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 12+300 de la autopista Libramiento Oriente Saltillo</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-100.868173,25.51095699999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">107</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 141 Los Chorros</SimpleData>
+					<SimpleData name="x">-100.732</SimpleData>
+					<SimpleData name="y">25.1867</SimpleData>
+					<SimpleData name="estado">Coahuila de Zaragoza</SimpleData>
+					<SimpleData name="municipio">Arteaga</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 203+800 de la autopista La Carbonera - Puerto México</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-100.732222,25.186667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">108</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 142 Huachichil</SimpleData>
+					<SimpleData name="x">-100.801</SimpleData>
+					<SimpleData name="y">25.2456</SimpleData>
+					<SimpleData name="estado">Coahuila de Zaragoza</SimpleData>
+					<SimpleData name="municipio">Arteaga</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 210+500 de la autopista Puerto México-La Carbonera</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-100.801389,25.245556,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">109</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 148 Estación Don</SimpleData>
+					<SimpleData name="x">-109.373</SimpleData>
+					<SimpleData name="y">26.8497</SimpleData>
+					<SimpleData name="estado">Sonora</SimpleData>
+					<SimpleData name="municipio">Navojoa</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 130+000 de la autopista Los Mochis- Cd. Obregón</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-109.373333,26.84972199999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">110</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 149 Fundición</SimpleData>
+					<SimpleData name="x">-109.72</SimpleData>
+					<SimpleData name="y">27.3203</SimpleData>
+					<SimpleData name="estado">Sonora</SimpleData>
+					<SimpleData name="municipio">Navojoa</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 195+100 de la autopista Navojoa - Cd. Obregón</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-109.72,27.32027799999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">111</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 150 Esperanza</SimpleData>
+					<SimpleData name="x">-109.939</SimpleData>
+					<SimpleData name="y">27.6036</SimpleData>
+					<SimpleData name="estado">Sonora</SimpleData>
+					<SimpleData name="municipio">Obregón</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 10+500 de la autopista Cd. Obregón - Guaymas</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-109.939167,27.60361100000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">112</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 151 Guaymas</SimpleData>
+					<SimpleData name="x">-110.924</SimpleData>
+					<SimpleData name="y">28.0367</SimpleData>
+					<SimpleData name="estado">Sonora</SimpleData>
+					<SimpleData name="municipio">Guaymas</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 19+000 de la autopista Libramiento Guaymas</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-110.924167,28.03666700000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">113</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 152 Hermosillo</SimpleData>
+					<SimpleData name="x">-110.93</SimpleData>
+					<SimpleData name="y">29.2206</SimpleData>
+					<SimpleData name="estado">Sonora</SimpleData>
+					<SimpleData name="municipio">Hermosillo</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 15+300 de la autopista Hermosillo - Magdalena</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-110.930278,29.22055599999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">114</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 153 Magdalena</SimpleData>
+					<SimpleData name="x">-110.949</SimpleData>
+					<SimpleData name="y">30.6292</SimpleData>
+					<SimpleData name="estado">Sonora</SimpleData>
+					<SimpleData name="municipio">Magdalena</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 187+200 de la autopista Hermosillo - Nogales</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-110.948889,30.62916700000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">115</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 160 Bermejillo</SimpleData>
+					<SimpleData name="x">-103.622</SimpleData>
+					<SimpleData name="y">25.9236</SimpleData>
+					<SimpleData name="estado">Durango</SimpleData>
+					<SimpleData name="municipio">Matini</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 44+200 de la autopista Gómez Palacio - Corralitos</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-103.621944,25.923611,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">116</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 161 Ceballos</SimpleData>
+					<SimpleData name="x">-104.058</SimpleData>
+					<SimpleData name="y">26.5867</SimpleData>
+					<SimpleData name="estado">Durango</SimpleData>
+					<SimpleData name="municipio">Matini</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 128+700 de la autopista Gómez Palacio - Corralitos</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-104.057778,26.58666700000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">117</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 162 Plan de Ayala</SimpleData>
+					<SimpleData name="x">-101.304</SimpleData>
+					<SimpleData name="y">25.4442</SimpleData>
+					<SimpleData name="estado">Coahuila de Zaragoza</SimpleData>
+					<SimpleData name="municipio">Saltillo</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 0+500 de la autopista Torreón - Saltillo</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-101.303889,25.44416700000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">118</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 163 La Cuchilla</SimpleData>
+					<SimpleData name="x">-102.878</SimpleData>
+					<SimpleData name="y">25.6269</SimpleData>
+					<SimpleData name="estado">Coahuila de Zaragoza</SimpleData>
+					<SimpleData name="municipio">Fronteras</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 0+950 de la autopista Torreón - Saltillo</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-102.878333,25.62694400000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">119</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 164 Pte. Zacatal</SimpleData>
+					<SimpleData name="x">-91.8608</SimpleData>
+					<SimpleData name="y">18.6128</SimpleData>
+					<SimpleData name="estado">Campeche</SimpleData>
+					<SimpleData name="municipio">Ciudad Del Carmen</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 162+500 de la autopista Cd. Carmen - El Zacatal</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-91.86083300000001,18.61277799999997,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">120</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 170 Pte. Nvo. Progreso</SimpleData>
+					<SimpleData name="x">-97.9544</SimpleData>
+					<SimpleData name="y">26.0361</SimpleData>
+					<SimpleData name="estado">Tamaulipas</SimpleData>
+					<SimpleData name="municipio">Rio Bravo</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 49+500 de la autopista Autopista Reynosa - Matamoros</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-97.954444,26.03611100000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">121</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 171 Pte. Ignacio Zaragoza</SimpleData>
+					<SimpleData name="x">-97.4747</SimpleData>
+					<SimpleData name="y">25.8742</SimpleData>
+					<SimpleData name="estado">Tamaulipas</SimpleData>
+					<SimpleData name="municipio">Matamoros</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">0</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-97.47472199999999,25.87416699999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">122</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 176 Sánchez Magallanes</SimpleData>
+					<SimpleData name="x">-93.8131</SimpleData>
+					<SimpleData name="y">18.0306</SimpleData>
+					<SimpleData name="estado">Tabasco</SimpleData>
+					<SimpleData name="municipio">Huimanguillo</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 70+200 de la autopista Agua Dulce - Cárdenas</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-93.813056,18.03055599999997,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">123</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 177 Totomoxtle</SimpleData>
+					<SimpleData name="x">-97.2472</SimpleData>
+					<SimpleData name="y">20.4614</SimpleData>
+					<SimpleData name="estado">Veracruz</SimpleData>
+					<SimpleData name="municipio">Papantla</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 181+261 de la autopista Tihuatlán - Gutiérrez Zamora</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-97.24722199999999,20.461389,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">124</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 179 Las Choapas</SimpleData>
+					<SimpleData name="x">-94.1722</SimpleData>
+					<SimpleData name="y">17.9447</SimpleData>
+					<SimpleData name="estado">Chiapas</SimpleData>
+					<SimpleData name="municipio">Las Choapas</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 16+697 de la autopista Las Choapas - Ocozocoautla</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-94.17222200000002,17.944722,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">125</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 181 Malpasito</SimpleData>
+					<SimpleData name="x">-93.5864</SimpleData>
+					<SimpleData name="y">17.3492</SimpleData>
+					<SimpleData name="estado">Tabasco</SimpleData>
+					<SimpleData name="municipio">Huimanguillo</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 112+800 de la autopista Las Choapas - Ocozocoautla</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-93.586389,17.34916699999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">126</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 182 Ocozocoautla</SimpleData>
+					<SimpleData name="x">-93.4069</SimpleData>
+					<SimpleData name="y">16.8633</SimpleData>
+					<SimpleData name="estado">Chiapas</SimpleData>
+					<SimpleData name="municipio">Ocozocoautla</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 182+200 de la autopista Las Choapas - Ocozocoautla</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-93.406944,16.86333300000002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">127</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 183 Villagrán</SimpleData>
+					<SimpleData name="x">-100.992</SimpleData>
+					<SimpleData name="y">20.5806</SimpleData>
+					<SimpleData name="estado">Guanajuato</SimpleData>
+					<SimpleData name="municipio">Villagrán</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 63+000 de la autopista Querétaro - Irapuato</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-100.991944,20.58055600000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">128</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 184 Ing. Francisco Velasco</SimpleData>
+					<SimpleData name="x">-99.2786</SimpleData>
+					<SimpleData name="y">18.6972</SimpleData>
+					<SimpleData name="estado">Morelos</SimpleData>
+					<SimpleData name="municipio">Puente de Ixtla</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 118+000 de la autopista Cuernavaca - Acapulco</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.27861099999998,18.69722200000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">129</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 185 Lomas Verdes</SimpleData>
+					<SimpleData name="x">-99.2864</SimpleData>
+					<SimpleData name="y">19.5192</SimpleData>
+					<SimpleData name="estado">Estado de México</SimpleData>
+					<SimpleData name="municipio">Naucalpan de Juárez</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 17+000 de la autopista Chamapa - Lechería</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.286389,19.519167,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">130</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 186 Cerro Gordo</SimpleData>
+					<SimpleData name="x">-101.137</SimpleData>
+					<SimpleData name="y">20.5917</SimpleData>
+					<SimpleData name="estado">Guanajuato</SimpleData>
+					<SimpleData name="municipio">Salamanca</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 79+000 de la autopista Querétaro - Irapuato</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-101.137222,20.59166699999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">131</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 188 San Marcos Bis</SimpleData>
+					<SimpleData name="x">-98.8775</SimpleData>
+					<SimpleData name="y">19.2944</SimpleData>
+					<SimpleData name="estado">Estado de México</SimpleData>
+					<SimpleData name="municipio">Chalco</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 32+500 de la autopista Circuito Exterior Mexiquense</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-98.8775,19.29444399999998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">132</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 189 Nodo Popotla</SimpleData>
+					<SimpleData name="x">-117.032</SimpleData>
+					<SimpleData name="y">32.2873</SimpleData>
+					<SimpleData name="estado">Baja California</SimpleData>
+					<SimpleData name="municipio">Playas de Rosarito</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 40+000 de la autopista Tijuana-Ensenada</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-117.031671,32.28731400000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">133</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 200 Pte. Cucapá</SimpleData>
+					<SimpleData name="x">-114.588</SimpleData>
+					<SimpleData name="y">32.4211</SimpleData>
+					<SimpleData name="estado">Sonora</SimpleData>
+					<SimpleData name="municipio">San Luis Colorado</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 192+247 / 191+220 de la autopista Salida de San Luis Rumbo a Sonoyta</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-114.588203,32.42112399999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#pointStyleMap</styleUrl>
+			<ExtendedData>
+				<SchemaData schemaUrl="#S_capacasetas_ISDDSSSSIS">
+					<SimpleData name="id_2">134</SimpleData>
+					<SimpleData name="descripcio">Caseta no. 201 Tixtla</SimpleData>
+					<SimpleData name="x">-99.3872</SimpleData>
+					<SimpleData name="y">17.5925</SimpleData>
+					<SimpleData name="estado">Guerrero</SimpleData>
+					<SimpleData name="municipio">Chilapa de Álvarez</SimpleData>
+					<SimpleData name="localidad">http://www.capufe.gob.mx Números 074 y 01-800-990-3900</SimpleData>
+					<SimpleData name="colonia">Para solicitar información carretera, asistencia médica o grúa en la red operada por CAPUFE.</SimpleData>
+					<SimpleData name="cp">0</SimpleData>
+					<SimpleData name="calle">km 18+808 de la autopista Libramiento Norte Chilpancingo - Montaña Baja</SimpleData>
+				</SchemaData>
+			</ExtendedData>
+			<Point>
+				<coordinates>-99.38722200000001,17.59249999999998,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
