@@ -12,3 +12,4 @@ http://datos.opendata.mx
 
 http://datamx.io
 
+https://github.com/caesar0301/awesome-public-datasets
